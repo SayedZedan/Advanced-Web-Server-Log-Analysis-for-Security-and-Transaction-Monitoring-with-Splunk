@@ -6,10 +6,10 @@ WebServer_access.log
 Apache Web Server Codes.csv
 
 
-Web Server Access Log Analysis Using Splunk
+##Web Server Access Log Analysis Using Splunk
 In this project, I was provided with a sample access log file for a web server (WebServer_access.log) to demonstrate how Splunk can be used to analyze company data. I uploaded the data and enriched it by creating a lookup to add a description for each status code in the log.
 
-Steps I followed:
+###Steps I followed:
 Navigated to Settings > Add Data.
 Selected the Upload method to add the sample log file.
 Dragged the log file from my desktop into the “Drop your data file here” area or clicked Select to choose the file.
@@ -26,10 +26,10 @@ source="csvd"
 Number of events stored in the sample access log: 12,992
 
 
-Creating a CSV Lookup for HTTP Status Code Descriptions in Splunk
+##Creating a CSV Lookup for HTTP Status Code Descriptions in Splunk
 In this project, I created a CSV lookup using the serverCodes.csv file to map status codes to their corresponding descriptions for analyzing errors in the access log. The most prevalent status code description in the uploaded access log was HTTP_SERVICE_UNAVAILABLE.
 
-Steps I followed:
+###Steps I followed:
 Navigated to Settings > Lookups in the Splunk bar.
 Clicked Add New next to "Lookup table files".
 Chose the search app as the destination app and uploaded the lookup file Apache Web Server Codes.csv. I set the destination file name as serverCodes.csv and clicked Save.
