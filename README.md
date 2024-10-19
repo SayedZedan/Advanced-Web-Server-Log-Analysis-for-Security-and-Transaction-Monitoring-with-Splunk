@@ -59,6 +59,41 @@ I then selected the code_description field under "Selected Fields" to view the m
 Most prevalent code description: HTTP_SERVICE_UNAVAILABLE
 ![Screenshot (535)](https://github.com/user-attachments/assets/e8f58559-2824-4883-95cc-eb2eff559886)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Create a Map Visualization
+Objective
+
+I aimed to visualize the geographical locations of IP addresses associated with declined transactions, producing a map by country.
+
+Fields of Interest
+```
+source
+sourcetype
+host
+msg
+clientip
+Country
+lat
+lon
+```
+Splunk Commands Used
+I used the following commands:
+
+```iplocation```: Retrieves geographical coordinates for the clientip.
+```geostats```: Generates statistics for mapping data.
+Search Query
+The query I executed is:
+```
+host="csvd" index="main" sourcetype="access_combined_wcookie" msg=CreditNotAccepted
+| iplocation clientip
+| geostats latfield=lat longfield=lon count by Country
+```
+Result
+After running the query, I observed that most declined transactions occur in the United States, providing valuable insight into transaction patterns.
+![Screenshot (537)](https://github.com/user-attachments/assets/f65483a6-ba69-4af6-aaf7-212b39acba7d)
+
+
 
 
 
