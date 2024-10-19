@@ -109,9 +109,24 @@ To ensure the dashboard was created successfully, I clicked View Dashboard in th
 
 ![Screenshot (539)](https://github.com/user-attachments/assets/f0e7192a-650b-4674-9bde-5332d0b4167b)
 
+--------------------------------------------------------------------------
+
+## Add a Panel to a Dashboard
+Objective
+I created a panel called “Transaction History” that displays a timeline of declined transactions for each IP address and added it to the “Sayed Zedan” dashboard.
+
+### Steps
+
+To create a line chart showing the timeline of declined transactions by client IP, I executed the following command:
+```
+host=csvd index=main sourcetype=access_combined_wcookie msg=CreditNotAccepted | timechart count by clientip
+```
+
+
+![Screenshot (538)](https://github.com/user-attachments/assets/3db372ac-a3da-4e59-a31f-1534a1d0441e)
+
+
 ------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 
 
