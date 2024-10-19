@@ -128,5 +128,38 @@ host=WebServer index=main sourcetype=access_combined_wcookie msg=CreditNotAccept
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
+## Create a Scheduled Report
+
+I created an alert called “Server Error Report” to notify the development team of server-related errors associated with the online store. This alert emails a chronological list of server errors every Monday at 8 AM.
+
+### Steps
+I navigated to the Search & Reporting app.
+
+I entered the following search string to create a table containing the requested information:
+```
+index=* host=WS sourcetype=access_combined_wcookie status>=500 | table clientip, method, referer, status, req_time | sort req_time
+```
+![Screenshot (540)](https://github.com/user-attachments/assets/3cea130a-8dde-44ec-9056-a7eb6a0566b6)
+
+
+To automate the reporting, I clicked Save As and selected Alert.
+
+I configured the alert with the following settings:
+
+Title: Server Error (Sayed Zedan)
+Alert Time: Run every week, on Monday at 8 AM
+Trigger Actions: Send email 
+![Screenshot (542)](https://github.com/user-attachments/assets/15da3999-c1ac-4f90-aad7-11c0717d583c)
+
+![Screenshot (541)](https://github.com/user-attachments/assets/3d811658-22db-46a6-96ac-b644e0748ce0)
+
+Finally, I clicked Save to confirm the alert.
+
+Verification
+To ensure the scheduled report was created successfully, I clicked View Alert. Alternatively, I checked the details of the newly defined alert under the Alerts tab in the Search & Reporting app.
+![Screenshot (543)](https://github.com/user-attachments/assets/cabf7160-df2a-4d0c-81eb-49ef55e067ea)
+
+
+
 
 
