@@ -9,7 +9,7 @@ Apache Web Server Codes.csv
 ##Web Server Access Log Analysis Using Splunk
 In this project, I was provided with a sample access log file for a web server (WebServer_access.log) to demonstrate how Splunk can be used to analyze company data. I uploaded the data and enriched it by creating a lookup to add a description for each status code in the log.
 
-###Steps I followed:
+###Steps I followed:###
 Navigated to Settings > Add Data.
 Selected the Upload method to add the sample log file.
 Dragged the log file from my desktop into the “Drop your data file here” area or clicked Select to choose the file.
