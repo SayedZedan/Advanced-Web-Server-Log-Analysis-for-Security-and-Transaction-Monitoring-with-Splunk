@@ -37,8 +37,8 @@ Set the destination app to search and named the lookup serverCodes.csv, then ass
 Clicked Save.
 Verifying the Lookup:
 To ensure the lookup was working properly, I ran a search and piped the results into the lookup command as follows:
-" ```bash
-lookup serverCodes.csv status AS status OUTPUT code_description AS code_description"
+```bash
+lookup serverCodes.csv status AS status OUTPUT code_description AS code_description
 I then selected the code_description field under "Selected Fields" to view the mapped values and analyzed their prevalence.
 
 Most prevalent code description: HTTP_SERVICE_UNAVAILABLE
