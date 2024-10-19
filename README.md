@@ -57,7 +57,8 @@ To ensure the lookup was working properly, I ran a search and piped the results 
 I then selected the code_description field under "Selected Fields" to view the mapped values and analyzed their prevalence.
 
 Most prevalent code description: HTTP_SERVICE_UNAVAILABLE
-![Uploading Screenshot (535).png…]()
+![Screenshot (535)](https://github.com/user-attachments/assets/4a8c81d9-b714-449f-98d3-2e4ad0070b91)
+
 
 
 
