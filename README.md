@@ -96,7 +96,7 @@ After running the query, I observed that most declined transactions occur in the
 
 ## Create a Dashboard for Tracking Data
 
-I created a dashboard to track data related to declined card transactions, saving the map visualization from Challenge 4 as a panel.
+I created a dashboard to track data related to declined card transactions, saving the map visualization as a panel.
 
 Steps Taken
 I saved the search results from  Map Visualization as a panel in a new dashboard.
