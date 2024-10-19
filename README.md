@@ -62,7 +62,6 @@ Most prevalent code description: HTTP_SERVICE_UNAVAILABLE
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Create a Map Visualization
-Objective
 
 I aimed to visualize the geographical locations of IP addresses associated with declined transactions, producing a map by country.
 
@@ -93,7 +92,24 @@ Result
 After running the query, I observed that most declined transactions occur in the United States, providing valuable insight into transaction patterns.
 ![Screenshot (537)](https://github.com/user-attachments/assets/f65483a6-ba69-4af6-aaf7-212b39acba7d)
 
+---------------------------------------------------------------------------------------------
 
+## Create a Dashboard for Tracking Data
+
+I created a dashboard to track data related to declined card transactions, saving the map visualization from Challenge 4 as a panel.
+
+Steps Taken
+I saved the search results from  Map Visualization as a panel in a new dashboard.
+In the Search and Reporting app, I clicked Save As and selected New Dashboard.
+I entered the dashboard title as Sayed Zedan and the panel title as Locations.
+I set the permissions as needed (optional) and clicked Save to Dashboard.
+Verification
+To ensure the dashboard was created successfully, I clicked View Dashboard in the prompt and confirmed it appeared under the Dashboards tab in the Search & Reporting app.
+
+
+![Screenshot (539)](https://github.com/user-attachments/assets/f0e7192a-650b-4674-9bde-5332d0b4167b)
+
+------------------------------------------------------------------------------------------------------------------------------------
 
 
 
