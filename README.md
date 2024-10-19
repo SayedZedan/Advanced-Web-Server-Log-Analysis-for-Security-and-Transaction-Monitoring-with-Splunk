@@ -119,7 +119,7 @@ I created a panel called “Transaction History” that displays a timeline of d
 
 To create a line chart showing the timeline of declined transactions by client IP, I executed the following command:
 ```
-host=csvd index=main sourcetype=access_combined_wcookie msg=CreditNotAccepted | timechart count by clientip
+host=WebServer index=main sourcetype=access_combined_wcookie msg=CreditNotAccepted | timechart count by clientip
 ```
 
 
