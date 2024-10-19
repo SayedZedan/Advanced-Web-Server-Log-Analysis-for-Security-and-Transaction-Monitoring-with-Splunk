@@ -25,7 +25,7 @@ Clicked Review to verify the details of the uploaded data.
 Clicked Submit to finalize the process.
 To view the uploaded events, I selected Start Searching. Alternatively, I used the following search string in the search and reporting app to find the data:
 ```
-source="csvd"
+"source="csvd""
 ```
 Number of events stored in the sample access log: 12,992
 
