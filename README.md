@@ -1,5 +1,5 @@
 # Advanced Web Server Log Analysis for Security and Transaction Monitoring with Splunk
-In this project, I took on the role of a data analyst tasked with providing valuable insights to various users across a fictional company, SwitchCode Systems. My responsibilities included gathering and reporting data related to purchases made at the company, with a focus on identifying suspicious activities, particularly around failed transactions and credit card data. Through thorough analysis, I aimed to tell meaningful stories that could help users detect potential security issues and vulnerabilities within the organization.
+In this project, I took on the role of a data analyst tasked with providing valuable insights to various users. My responsibilities included gathering and reporting data related to purchases made at the company, with a focus on identifying suspicious activities, particularly around failed transactions and credit card data. Through thorough analysis, I aimed to tell meaningful stories that could help users detect potential security issues and vulnerabilities within the organization.
 
 Project Files:
 WebServer_access.log,
